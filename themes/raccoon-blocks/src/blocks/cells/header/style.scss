@@ -1,0 +1,22 @@
+@import "../../../css/variables.scss";
+
+.header {
+	padding: 24px 0;
+	border-bottom: 1px solid $primary;
+	background-color: $surface-tertiary;
+
+	.container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.logo {
+			width: auto;
+			height: 24px;
+
+			@media (min-width: $desktop) {
+				height: 32px;
+			}
+		}
+	}
+}

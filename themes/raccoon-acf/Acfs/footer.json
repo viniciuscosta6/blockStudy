@@ -1,0 +1,82 @@
+[
+	{
+		"key": "group_5e5e4a8a7fcdf",
+		"title": "Footer",
+		"fields": [
+			{
+				"key": "field_5e5e4a94b0668",
+				"label": "Logo (SVG)",
+				"name": "footer-logo-svg",
+				"type": "text",
+				"instructions": "",
+				"required": 1,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e5e550d88b1d",
+				"label": "CopyRight",
+				"name": "footer-copyright",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e5e552888b1e",
+				"label": "Informações",
+				"name": "footer-info",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-footer"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	}
+]

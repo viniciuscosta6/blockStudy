@@ -1,0 +1,33 @@
+{
+	"name": "raccoon-monks/boilerplate",
+	"description": "Boilerplate Wordpress",
+	"require": {
+		"roots/wordpress": "^6"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"scripts": {
+		"move-wordpress": [
+			"rm -rf wordpress/wp-content/plugins/*",
+			"rm -rf wordpress/wp-content/themes/*",
+			"cp -rf wordpress/* .",
+			"rm -rf wordpress"
+		],
+		"post-install-cmd": [
+			"@move-wordpress"
+		],
+		"post-update-cmd": [
+			"@move-wordpress"
+		]
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"roots/wordpress-core-installer": true
+		}
+	}
+}

@@ -1,0 +1,13 @@
+node_modules
+
+wordpress/wp-admin
+wordpress/wp-includes
+wordpress/wp-content/plugins
+wordpress/wp-content/uploads
+wordpress/wp-content/cache
+
+wordpress/wp-content/themes/raccoon-acf/assets/dist
+
+wordpress/wp-content/themes/raccoon-blocks/build
+wordpress/wp-content/themes/raccoon-blocks/templates
+wordpress/wp-content/themes/raccoon-blocks/node_modules

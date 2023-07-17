@@ -1,0 +1,44 @@
+[
+	{
+		"key": "group_5e5d6b9092019",
+		"title": "Configurações de Tracking",
+		"fields": [
+			{
+				"key": "field_5e5d6ba4b9dfa",
+				"label": "ID do Container GTM",
+				"name": "tracking-gtm",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-tracking"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	}
+]

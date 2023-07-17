@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "rm/header",
+    "title": "Header",
+    "category": "cells",
+    "version": "1.0.0",
+    "editorScript": "file:index.jsx",
+    "script": "file:index.jsx",
+    "style": [ "file:./style.scss", "style-header" ],
+    "render": "file:./render.php",
+    "attributes": {
+        "bgColor": {
+            "type": "string",
+            "default": "#EEEEEE"
+        }
+    }
+}

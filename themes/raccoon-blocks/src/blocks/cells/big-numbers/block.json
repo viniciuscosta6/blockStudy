@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "rm/big-numbers",
+    "title": "Big Numbers",
+    "category": "cells",
+    "version": "1.0.0",
+    "editorScript": "file:index.jsx",
+    "script": "file:index.jsx",
+    "viewScript": "file:view.js",
+    "style": [ "file:./style.scss", "style-big-numbers" ],
+    "render": "file:./render.php",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "default": "A Raccoon.Monks em números"
+        },
+        "number1": {
+            "type": "string",
+            "default": "100"
+        },
+        "text1": {
+            "type": "string",
+            "default": "mais de 100 parceiros de diversas áreas"
+        },
+        "number2": {
+            "type": "string",
+            "default": "1.200"
+        },
+        "text2": {
+            "type": "string",
+            "default": "colaboradores em todo o Brasil"
+        },
+        "number3": {
+            "type": "string",
+            "default": "500"
+        },
+        "text3": {
+            "type": "string",
+            "default": "cidades com raccooners pelo Brasil"
+        },
+        "number4": {
+            "type": "string",
+            "default": "760"
+        },
+        "text4": {
+            "type": "string",
+            "default": "empresas já fizeram parte de nossa história"
+        },
+        "titleColor": {
+            "type": "string",
+            "default": "#2D2D2D"
+        },
+        "bgColor": {
+            "type": "string",
+            "default": "#EEEEEE"
+        },
+        "cardBgColor": {
+            "type": "string",
+            "default": "#EEEEEE"
+        },
+        "cardTextColor": {
+            "type": "string",
+            "default": "#0D3842"
+        }
+	}
+}

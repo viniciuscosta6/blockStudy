@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "rm/hero",
+    "title": "Hero",
+    "category": "cells",
+    "version": "1.0.0",
+    "editorScript": "file:index.jsx",
+    "script": "file:index.jsx",
+    "style": [ "file:./style.scss", "style-hero" ],
+    "render": "file:./render.php",
+    "attributes": {
+        "bgColor": {
+            "type": "string",
+            "default": "#EEEEEE"
+        },
+        "title": {
+            "type": "string",
+            "default": "<p>Raccoon.Monks é a</p><p>gigante da América</p><p>Latina</p>"
+        },
+        "titleColor": {
+			"type": "string",
+			"default": "#0D3842"
+		},
+		"titleBgColor": {
+			"type": "string",
+			"default": "#E1FF9A"
+		},
+        "subtitle": {
+            "type": "string",
+            "default": "<p>Somos a maior agência de</p><p>marketing digital full service da</p><p>América Latina! Venha ser parte da</p><p>nossa história!</p>"
+        },
+        "subtitleColor": {
+			"type": "string",
+			"default": "#0D3842"
+		},
+		"subtitleBgColor": {
+			"type": "string",
+			"default": "#E1FF9A"
+		},
+		"marginM": {
+			"type": "integer",
+			"default": "0"
+		},
+		"marginD": {
+			"type": "integer",
+			"default": "0"
+		}
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"blockOnly": true,
+            "bgColor": "#EEEEEE",
+            "title": "<p>Raccoon.Monks é a</p><p>gigante da América</p><p>Latina</p>",
+            "titleColor": "#0D3842",
+            "titleBgColor": "#E1FF9A",
+            "subtitle": "<p>Somos a maior agência de</p><p>marketing digital full service da</p><p>América Latina! Venha ser parte da</p><p>nossa história!</p>",
+            "subtitleColor": "#0D3842",
+            "subtitleBgColor": "#E1FF9A"
+		}
+	}
+}

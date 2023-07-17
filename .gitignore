@@ -1,0 +1,21 @@
+# mac
+.DS_Store
+**/.DS_Store
+
+# dependencies
+node_modules
+
+# cache files
+composer.lock
+package-json.lock
+yarn.lock
+
+# error files
+yarn-error.log
+
+# enviroment vars
+.env
+
+# persistent data
+data/mysql/*
+data/wordpress

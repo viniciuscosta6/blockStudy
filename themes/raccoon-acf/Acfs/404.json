@@ -1,0 +1,120 @@
+[
+	{
+		"key": "group_5e66a1423e65c",
+		"title": "Opções da Página 404",
+		"fields": [
+			{
+				"key": "field_5e66a155861d6",
+				"label": "Texto do Erro",
+				"name": "404-error-type",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e66a16bd6dea",
+				"label": "Título",
+				"name": "404-title",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e66a17bbab3f",
+				"label": "Descrição",
+				"name": "404-description",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e66a44a38889",
+				"label": "Placeholder do Input",
+				"name": "404-input-placeholder",
+				"type": "text",
+				"instructions": "Texto instrução para a busca.",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e66a47f3c057",
+				"label": "Texto do Botão",
+				"name": "404-button-text",
+				"type": "text",
+				"instructions": "Texto do botão que volta para a página inicial.",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-pagina-404"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	}
+]

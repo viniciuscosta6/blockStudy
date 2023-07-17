@@ -1,0 +1,119 @@
+[
+	{
+		"key": "group_5e72105730fae",
+		"title": "Busca",
+		"fields": [
+			{
+				"key": "field_5e72133b04470",
+				"label": "Página de Busca",
+				"name": "",
+				"type": "tab",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"placement": "top",
+				"endpoint": 0
+			},
+			{
+				"key": "field_5e72130d0446e",
+				"label": "Mensagem de Erro",
+				"name": "static-search-not-found-title",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e72138004471",
+				"label": "Título das Sugestões de Correção",
+				"name": "static-search-not-found-description",
+				"type": "text",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"maxlength": ""
+			},
+			{
+				"key": "field_5e7213aa04472",
+				"label": "Sugestões de Correção",
+				"name": "static-search-not-found-repeater",
+				"type": "repeater",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"collapsed": "",
+				"min": 0,
+				"max": 0,
+				"layout": "table",
+				"button_label": "",
+				"sub_fields": [
+					{
+						"key": "field_5e7213bd04473",
+						"label": "Sugestões",
+						"name": "static-search-not-found-instructions",
+						"type": "text",
+						"instructions": "",
+						"required": 0,
+						"conditional_logic": 0,
+						"wrapper": {
+							"width": "",
+							"class": "",
+							"id": ""
+						},
+						"default_value": "",
+						"placeholder": "",
+						"prepend": "",
+						"append": "",
+						"maxlength": ""
+					}
+				]
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-pagina-de-busca"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	}
+]

@@ -1,0 +1,17 @@
+{
+	"name": "raccoon-wordpress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "yarn prettier --write **.php **.js **.jsx **.css **.scss **.html"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"@prettier/plugin-php": "^0.18.9",
+		"prettier": "2.7.1"
+	},
+	"dependencies": {
+		"@wordpress/block-library": "^7.12.0"
+	}
+}

@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "rm/section",
+    "title": "Seção",
+    "category": "atoms",
+    "version": "1.0.0",
+    "editorScript": "file:index.jsx",
+    "script": "file:index.jsx",
+    "style": [ "file:./style.scss", "style-section" ],
+    "render": "file:./render.php",
+    "attributes": {
+		"bgImage": {
+            "type": "object",
+            "default": {
+                "id" : "",
+                "src": ""
+            }
+        },
+		"bgUrl": {
+            "type": "string",
+            "default": ""
+        },
+		"bgColor": {
+            "type": "string"
+        }
+	}
+}

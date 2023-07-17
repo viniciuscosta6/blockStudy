@@ -1,0 +1,134 @@
+[
+	{
+		"key": "group_5e5d6b5456cf1",
+		"title": "Header",
+		"fields": [
+			{
+				"key": "field_5e5d6c1361a94",
+				"label": "Logo (SVG)",
+				"name": "logo-header-svg",
+				"type": "textarea",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"maxlength": "",
+				"rows": "",
+				"new_lines": ""
+			},
+			{
+				"key": "field_5e5d6c31d4cae",
+				"label": "CTA",
+				"name": "header-cta",
+				"type": "group",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"layout": "block",
+				"sub_fields": [
+					{
+						"key": "field_5e5d6c6cac495",
+						"label": "Exibir CTA",
+						"name": "show",
+						"type": "true_false",
+						"instructions": "Se selecionado, exibe o botão.",
+						"required": 0,
+						"conditional_logic": 0,
+						"wrapper": {
+							"width": "",
+							"class": "",
+							"id": ""
+						},
+						"message": "",
+						"default_value": 0,
+						"ui": 0,
+						"ui_on_text": "",
+						"ui_off_text": ""
+					},
+					{
+						"key": "field_5e5d6c4cd4caf",
+						"label": "Texto",
+						"name": "text",
+						"type": "text",
+						"instructions": "Insira o texto para aparecer no cta.",
+						"required": 0,
+						"conditional_logic": 0,
+						"wrapper": {
+							"width": "",
+							"class": "",
+							"id": ""
+						},
+						"default_value": "",
+						"placeholder": "",
+						"prepend": "",
+						"append": "",
+						"maxlength": ""
+					},
+					{
+						"key": "field_5e5d6c87ac496",
+						"label": "URL",
+						"name": "url",
+						"type": "url",
+						"instructions": "",
+						"required": 0,
+						"conditional_logic": 0,
+						"wrapper": {
+							"width": "",
+							"class": "",
+							"id": ""
+						},
+						"default_value": "",
+						"placeholder": ""
+					},
+					{
+						"key": "field_5e5d6c98ac497",
+						"label": "Abrir link em nova guia",
+						"name": "target",
+						"type": "true_false",
+						"instructions": "Se selecionado, abre link em nova guia.",
+						"required": 0,
+						"conditional_logic": 0,
+						"wrapper": {
+							"width": "",
+							"class": "",
+							"id": ""
+						},
+						"message": "",
+						"default_value": 0,
+						"ui": 0,
+						"ui_on_text": "",
+						"ui_off_text": ""
+					}
+				]
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-header"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	}
+]

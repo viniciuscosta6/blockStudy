@@ -1,0 +1,24 @@
+#! /bin/bash
+
+# export .env vars
+export $(grep "APACHE_CONTAINER_NAME" .env)
+
+# Install wordpress via composer
+docker exec $APACHE_CONTAINER_NAME bash -c "cd /var/www/html
+    cp /configs/wordpress/composer.json .
+    composer install
+    cp /configs/wordpress/wp-config.php .
+    mkdir /var/www/html/wp-content/plugins
+"
+
+# Install theme dependencies
+docker exec $APACHE_CONTAINER_NAME bash -c "cd /var/www/html/wp-content/themes/raccoon-blocks
+    composer install
+    yarn
+    yarn build
+"
+
+# Give all permissions to web root dir
+docker exec $APACHE_CONTAINER_NAME bash -c "echo 'Giving permissions to web root...'
+    chmod -R 777 /var/www/html
+"

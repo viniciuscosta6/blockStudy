@@ -1,0 +1,53 @@
+@import "../../../css/variables.scss";
+
+.timeline {
+    background: #E1FF9A;
+    padding: 56px 0;
+
+    .container {
+        .title {
+            font-family: 'Helvetica Now for Monks';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 68px;
+            color: #000000;
+            margin: 0;
+        }
+        .subtitle {
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #000000;
+            margin-top: 8;
+        }
+        .cta {
+            padding: 16px 36px;
+            background: #0D3842;
+            border-radius: 8px;
+            font-family: 'Space Grotesk';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            color: #FFFFFF;
+            margin: 0;
+            display: inline-block;
+            margin: 16px 0;
+            text-decoration: none;
+        }
+        .scroll-x-viewport {
+            background: #D0D0D0;
+            overflow-x: scroll;
+            display: flex;
+            flex-direction: row;
+            padding: 0 24px 0 100px;
+            min-height: 635px;
+            overflow-y: hidden;
+            cursor: grab;
+            user-select: none;
+        }
+    }
+}

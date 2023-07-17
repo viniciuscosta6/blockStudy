@@ -1,0 +1,173 @@
+@import '../../../css/media.scss';
+@import '../../../css/variables.scss';
+
+.typography {
+	font-family: "Helvetica Now for Monks", sans-serif;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+
+	&.title-1 {
+		@extend %title-1;
+	}
+	&.title-2 {
+		@extend %title-2;
+	}
+	&.title-3 {
+		@extend %title-3;
+	}
+	&.subtitle-1 {
+		@extend %subtitle-1;
+	}
+	&.subtitle-2 {
+		@extend %subtitle-2;
+	}
+	&.subtitle-3 {
+		@extend %subtitle-3;
+	}
+	&.body-1 {
+		@extend %body-1;
+	}
+	&.body-2 {
+		@extend %body-2;
+	}
+	&.body-3 {
+		@extend %body-3;
+	}
+	&.caption {
+		@extend %caption;
+	}
+	&.overline {
+		@extend %overline;
+	}
+	&.button-large {
+		@extend %button-large;
+	}
+	&.button {
+		@extend %button;
+	}
+}
+
+%title-1 {
+	font-size: 42px;
+	line-height: 63px;
+	font-weight: 600;
+
+	@include lg {
+		font-size: 50px;
+		line-height: 84px;
+		font-weight: 500;
+	}
+}
+
+%title-2 {
+	font-size: 40px;
+	line-height: 60px;
+	font-weight: 400;
+
+	@include lg {
+		font-size: 48px;
+		line-height: 72px;
+	}
+}
+
+%title-3 {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: 500;
+
+	@include lg {
+		font-size: 40px;
+		line-height: 60px;
+	}
+}
+
+%subtitle-1 {
+	font-size: 32px;
+	line-height: 48px;
+	font-weight: 600;
+
+	@include lg {
+		font-size: 40px;
+		line-height: 60px;
+	}
+}
+
+%subtitle-2 {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 500;
+
+	@include lg {
+		font-size: 32px;
+		line-height: 48px;
+	}
+}
+
+%subtitle-3 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 600;
+
+	@include lg {
+		font-size: 24px;
+		line-height: 36px;
+	}
+}
+
+%body-1 {
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 400;
+
+	@include lg {
+		font-size: 24px;
+		line-height: 36px;
+	}
+}
+
+%body-2 {
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 400;
+}
+
+%body-3 {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+}
+
+%caption {
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+
+	@include lg {
+		font-size: 14px;
+		line-height: 21px;
+		font-weight: 600;
+	}
+}
+
+%overline {
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 600;
+
+	@include lg {
+		font-weight: 700;
+	}
+}
+
+%button-large {
+	font-size: 24px;
+	line-height: 36px;
+	font-weight: 600;
+}
+
+%button {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}

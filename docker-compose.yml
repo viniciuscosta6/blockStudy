@@ -1,0 +1,41 @@
+version: '3.1'
+services:
+  apache:
+    build: .
+    container_name: ${APACHE_CONTAINER_NAME}
+    image: ${IMAGE_NAME}
+    ports:
+      - ${APACHE_PORTS}:80
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+    volumes:
+      - ./data/wordpress:/var/www/html
+      - ./themes/raccoon-blocks:/var/www/html/wp-content/themes/raccoon-blocks
+
+    env_file: .env
+    depends_on:
+      - db
+  db:
+    image: mysql:5.7
+    container_name: ${DB_CONTAINER_NAME}
+    restart: always
+    environment:
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - ./data/mysql/persistence:/var/lib/mysql
+      - ./data/mysql/dumps:/data/mysql
+    env_file: .env
+
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: ${PHPMYADMIN_CONTAINER_NAME}
+    restart: always
+    ports:
+      - ${PHPMYADMIN_PORTS}:80
+    environment:
+      PMA_HOST: db
+    env_file: .env

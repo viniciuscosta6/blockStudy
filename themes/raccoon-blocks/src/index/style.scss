@@ -1,0 +1,101 @@
+@import "../css/variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Space+Grotesk:wght@400;600&display=swap");
+
+@font-face {
+	font-family: "Helvetica Now for Monks";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(../fonts/HelveticaNowforMonks-Ext.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Helvetica Now for Monks";
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: url(../fonts/HelveticaNowforMonks-ExtXBd.woff2) format("woff2");
+}
+
+.container {
+	padding: 0 24px;
+	margin: 0 auto;
+
+	@media (min-width: $tablet) {
+		max-width: 690px;
+	}
+
+	@media (min-width: $desktop) {
+		max-width: 1172px;
+	}
+}
+
+// Style to title page on Wordpress Panel
+.edit-post-visual-editor__post-title-wrapper {
+	font-family: "Helvetica Now for Monks";
+	background: $surface-quaternary;
+	margin-top: 0;
+	padding: 4rem 2rem 2rem;
+	position: relative;
+
+	&::before {
+		content: 'Nome da página:';
+		position: absolute;
+		top: 3rem;
+		left: 2rem;
+		color: $surface-secondary;
+		font-size: 14px;
+	}
+}
+
+.block-editor-block-list__layout {
+	&.is-root-container {
+		overflow: hidden;
+		margin-bottom: 100px;
+	}
+}
+
+// Painel de cores
+.color-panel {
+	overflow: hidden;
+	padding-bottom: 0 !important;
+
+	.components-panel__body-title {
+		margin-bottom: 0 !important;
+	}
+
+	.palette-panel {
+		padding: 10px 0;
+
+		.components-base-control {
+			margin-bottom: 10px;
+		}
+
+		.palette-label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		label {
+			max-width: 100%;
+			width: 100%;
+		}
+
+		&:nth-child(even) {
+			position: relative;
+			z-index: 1;
+
+			&::before {
+				z-index: -1;
+				content: '';
+				background: #f5f5f5;
+				position: absolute;
+				top: 0;
+				left: 50%;
+				height: 100%;
+				width: 200%;
+				transform: translateX(-50%);
+			}
+		}
+	}
+}

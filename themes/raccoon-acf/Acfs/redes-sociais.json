@@ -1,0 +1,183 @@
+[
+	{
+		"key": "group_627fbf1946be5",
+		"title": "Botões de compartilhamento",
+		"fields": [
+			{
+				"key": "field_627fbf4190747",
+				"label": "Ativar Linkedin",
+				"name": "active-linkedin",
+				"type": "true_false",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"message": "",
+				"default_value": 0,
+				"ui": 0,
+				"ui_on_text": "",
+				"ui_off_text": ""
+			},
+			{
+				"key": "field_627fbfe4bee3d",
+				"label": "Ativar Telegram",
+				"name": "active-telegram",
+				"type": "true_false",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"message": "",
+				"default_value": 0,
+				"ui": 0,
+				"ui_on_text": "",
+				"ui_off_text": ""
+			},
+			{
+				"key": "field_627fbfe4bee3c",
+				"label": "Ativar Whatsapp",
+				"name": "active-whatsapp",
+				"type": "true_false",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"message": "",
+				"default_value": 0,
+				"ui": 0,
+				"ui_on_text": "",
+				"ui_off_text": ""
+			},
+			{
+				"key": "field_627fbfe3bee3b",
+				"label": "Ativar Twitter",
+				"name": "active-twitter",
+				"type": "true_false",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"message": "",
+				"default_value": 0,
+				"ui": 0,
+				"ui_on_text": "",
+				"ui_off_text": ""
+			},
+			{
+				"key": "field_627fbfdebee3a",
+				"label": "Ativar Facebook",
+				"name": "active-facebook",
+				"type": "true_false",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"message": "",
+				"default_value": 0,
+				"ui": 0,
+				"ui_on_text": "",
+				"ui_off_text": ""
+			},
+			{
+				"key": "field_627fbfddbee39",
+				"label": "Ativar Email",
+				"name": "active-email",
+				"type": "true_false",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"message": "",
+				"default_value": 0,
+				"ui": 0,
+				"ui_on_text": "",
+				"ui_off_text": ""
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-redes-sociais"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	},
+	{
+		"key": "group_5e66397476d22",
+		"title": "Redes Sociais",
+		"fields": [
+			{
+				"key": "field_5e6639896fa4f",
+				"label": "App ID do Facebook",
+				"name": "social-networks-facebook-id",
+				"type": "number",
+				"instructions": "",
+				"required": 0,
+				"conditional_logic": 0,
+				"wrapper": {
+					"width": "",
+					"class": "",
+					"id": ""
+				},
+				"default_value": "",
+				"placeholder": "",
+				"prepend": "",
+				"append": "",
+				"min": "",
+				"max": "",
+				"step": ""
+			}
+		],
+		"location": [
+			[
+				{
+					"param": "options_page",
+					"operator": "==",
+					"value": "acf-options-redes-sociais"
+				}
+			]
+		],
+		"menu_order": 0,
+		"position": "normal",
+		"style": "default",
+		"label_placement": "top",
+		"instruction_placement": "label",
+		"hide_on_screen": "",
+		"active": true,
+		"description": ""
+	}
+]
